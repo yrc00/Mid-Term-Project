@@ -79,8 +79,15 @@ a.navbar-item.is-active {
     }
 
     a {
-        min-width: 25vmax;
+        min-width: 16vmax;
         margin: 0.5rem;
+        &:hover {
+            background-color: #242424;
+            color:white;
+        }
+        &:hover:after{
+            left:0;
+        }
     }
 }
 
@@ -88,7 +95,16 @@ a.navbar-item.is-active {
     #contact-button {
         margin: 0.5rem auto;
         display: flex;
+        border-color: black;
         justify-content: center;
+
+        &:hover {
+            background-color: #242424;
+            color: white;
+        }
+        &:hover:after {
+            left: 0;
+        }
     }
 
     svg {
@@ -351,5 +367,20 @@ a.navbar-item.is-active {
         ul, ol, blockquote {
             display: inline-block;
         }
+    }
+}
+
+#cv{
+    color: White !important;
+    ul, ol, strong, th, h1, h2, h3, h4, h5, h6{
+        color: White !important;
+    }
+    hr{
+        background: White !important;
+    }
+
+    #btn{
+        background-color: #242424 !important;
+        color: White !important;
     }
 }
