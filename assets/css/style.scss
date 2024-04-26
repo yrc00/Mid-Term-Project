@@ -92,14 +92,16 @@ a.navbar-item.is-active {
 }
 
 #activities {
-    .image {
-        max-width: 20vmax;
-        margin: auto;
+  .image {
+    max-width: 20vmax;
+    margin: auto;
 
-        img {
-            border: 0.25rem dotted black;
-        }
+    img {
+      border: 0.25rem black; 
+      aspect-ratio: 1/1; 
+      object-fit: cover; 
     }
+  }
 }
 
 #contact {
