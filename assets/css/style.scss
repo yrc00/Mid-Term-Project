@@ -306,9 +306,6 @@ a.navbar-item.is-active {
         transition: all 0.5s ease;
         margin-bottom: 0.5rem !important;
         display: inline-table;
-        &:hover {
-            transform: scale(0.975);
-        }
     }
     .card {
         transition: all 0.25s ease;
