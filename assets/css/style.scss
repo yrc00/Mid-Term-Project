@@ -92,17 +92,23 @@ a.navbar-item.is-active {
 }
 
 #activities {
-  .image {
-    max-width: 20vmax;
-    margin: auto;
-
-    img {
-      border: 0.25rem black; 
-      aspect-ratio: 1/1; 
-      object-fit: cover; 
+    .image {
+      max-width: 20vmax;
+      margin: auto;
+  
+      img {
+        border: 0.25rem black; 
+        aspect-ratio: 1/1; 
+        object-fit: cover; 
+      }
+    }
+  
+    @media (max-width: 1024px) {
+      .columns {
+        flex-direction: column; /* 모바일 환경에서 컬럼들을 세로로 배치 */
+      }
     }
   }
-}
 
 #contact {
     #contact-button {
@@ -318,6 +324,26 @@ a.navbar-item.is-active {
 }
 
 #recent-project{
+    .video {
+        position: relative;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        height: 0;
+        padding-bottom: 26.25%;
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        @media (max-width: 768px) {
+            max-width: 100%;
+            padding-bottom: calc(100% * 315 / 480);
+        }
+    }
+
     .columns {
         max-width: 2500px;
         .column {
