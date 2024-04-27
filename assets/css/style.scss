@@ -92,17 +92,23 @@ a.navbar-item.is-active {
 }
 
 #activities {
-  .image {
-    max-width: 20vmax;
-    margin: auto;
-
-    img {
-      border: 0.25rem black; 
-      aspect-ratio: 1/1; 
-      object-fit: cover; 
+    .image {
+      max-width: 20vmax;
+      margin: auto;
+  
+      img {
+        border: 0.25rem black; 
+        aspect-ratio: 1/1; 
+        object-fit: cover; 
+      }
+    }
+  
+    @media (max-width: 1024px) {
+      .columns {
+        flex-direction: column; /* 모바일 환경에서 컬럼들을 세로로 배치 */
+      }
     }
   }
-}
 
 #contact {
     #contact-button {
