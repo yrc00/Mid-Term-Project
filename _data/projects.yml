@@ -3,15 +3,31 @@
 #   link:
 #   description:
 
-- name: Third Project
+- name: Seventh Project
   image: https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=1188&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   link: https://github.com/yrc00/Mid-Term-Project
-  description: third project is creating a github page.
-- name: Second Project
+  description: seventh project is creating a github page.
+- name: Sixth Project
+  image: https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  link: https://www.notion.so/f3d0c26604a74076be2bd8ce8b5ea711
+  description: sixth project is seoul tour splot analysis.
+- name: Fifth Project
   image: https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   link: https://github.com/yrc00/ds_project/tree/main/DACON/%EC%99%80%EC%9D%B8%EB%B6%84%EB%A5%98
-  description: second project is wine classification.
-- name: First Project
-  image: https://images.unsplash.com/photo-1623216216626-f8bfd191552d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  description: fifth project is wine classification.
+- name: Forth Project
+  image: https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=1136&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   link: https://github.com/yrc00/ds_project/tree/main/DACON/%EB%94%B0%EB%A6%89%EC%9D%B4
-  description: first project is bicycle rental amount prediction. 
+  description: forth project is bicycle rental amount prediction. 
+- name: Third Project
+  image: https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  link: https://www.notion.so/a141573a33304b8d8e1895e6a5c67fa0
+  description: third project is testing sorting
+- name: Second Project
+  image: https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  link: https://www.notion.so/shell-42304dd117ca48268d7e1d58b132827f
+  description: second project is myshell implementation
+- name: First Project
+  image: https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  link: https://www.notion.so/646a9a95abe041108fac65020869ff72
+  description: first project is ecommerce recommendation system.
